@@ -1,0 +1,9 @@
+.video__iframes {
+  margin: 50px auto -40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.video__iframe:nth-child(1) {
+  margin-right: 20px;
+}
