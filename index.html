@@ -16,18 +16,18 @@ src="./images/logo_place_header.svg" alt="Логотип Яндекс Практ
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">Какие современные и эффективные подходы
   к обучению вы можете использовать в своей жизни?
-    <a class="header__link" href="#">Узнать &rarr;</a>
+    <a class="header__link link-hover" href="#">Узнать &rarr;</a>
     </p>
     <img class="header__main-illustration"
   src="./images/header-image.png" alt="Картина Ф.Решетникова - Опять двойка">
-    <div class="header__square-pic"></div>
+    <div class="header__square-pic rotation"></div>
   </header>
   <main class="content">
 
                                           <!--Section description-->
 
     <section class="description">
-      <div class="two-columns">
+      <article class="two-columns">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">
@@ -47,7 +47,7 @@ src="./images/logo_place_header.svg" alt="Логотип Яндекс Практ
           Эти же техники применяются на примере обучения в Практикуме.
           </p>
         </div>
-      </div>
+      </article>
     </section>
 
 
@@ -55,7 +55,7 @@ src="./images/logo_place_header.svg" alt="Логотип Яндекс Практ
 
     <section class="techniques">
       <h2 class="section-title">Техники обучения</h2>
-      <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+      <p class="section-subtitle">Пять практик от Барбары Оакли</p>
       <ul class="cards">
         <li class="cards__item">
           <img class="cards__image" alt="Книга в руках" src="./images/cards-attention.png">
@@ -89,23 +89,17 @@ src="./images/logo_place_header.svg" alt="Логотип Яндекс Практ
 
     <section class="video">
       <h2 class="section-title">Видео нa TED</h2>
-      <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
+      <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
       <div class="video__iframes">
-        <div class="video__iframe">
-          <iframe width="515" height="316"
-          src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-        </div>
-        <div class="video__iframe">
-          <iframe width="515" height="316"
-          src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-        </div>
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
       </div>
     </section>
 
                                           <!--Section oakley-->
 
     <section class="oakley">
-      <div class="two-columns">
+      <article class="two-columns">
         <h2 class="two-columns__brief">История Барбары Оакли.</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">
@@ -115,7 +109,7 @@ src="./images/logo_place_header.svg" alt="Логотип Яндекс Практ
             Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
           </p>
         </div>
-      </div>
+      </article>
     </section>
 
 
@@ -124,7 +118,7 @@ src="./images/logo_place_header.svg" alt="Логотип Яндекс Практ
     <section class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <p class="feynman__subtitle">Выучить и не забыть.</p>
-      <a class="feynman__link" href="#">Подробнее &rarr;</a>
+      <a class="feynman__link link-hover" href="#">Подробнее &rarr;</a>
       <img src="./images/feynman.png" alt="Р.Фейнман"
   class="feynman__main-illustration">
     </section>
@@ -133,7 +127,7 @@ src="./images/logo_place_header.svg" alt="Логотип Яндекс Практ
 
     <section class="digits">
       <h2 class="section-title">Цифры и факты</h2>
-      <h3 class="section-subtitle">Про учёбу и мозг</h3>
+      <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
           <li class="table__cell">
             <h4 class="table__heading">86 миллиардов</h4>
@@ -178,16 +172,16 @@ src="./images/logo_place_header.svg" alt="Логотип Яндекс Практ
 
     <section class="khan">
       <div class="khan__container">
-        <h3 class="khan__author">Салман Хан</h3>
+        <p class="khan__author">Салман Хан</p>
         <h2 class="khan__title">Весь мир — школа</h2>
         <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру.
         Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут
         получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-        <h3 class="khan__quote-author">Джордж Лукас</h3>
-        <h3 class="khan__quote-author-subline">Кинорежиссер, продюсер</h3>
+        <p class="khan__quote-author">Джордж Лукас</p>
+        <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
         <div class="khan__book-container">
           <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Книга: Весь мир - школа">
-          <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
+          <a class="khan__buy-link link-hover" href="#">Купить книгу &rarr;</a>
         </div>
       </div>
     </section>
@@ -196,7 +190,7 @@ src="./images/logo_place_header.svg" alt="Логотип Яндекс Практ
 
     <section class="kaufman">
       <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-      <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+      <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
       <ul class="table table_theme_dark">
         <li class="table__cell table__cell_theme_dark">
           <h4 class="table__heading table__heading_theme_dark">1</h4>
@@ -239,8 +233,7 @@ src="./images/logo_place_header.svg" alt="Логотип Яндекс Практ
           <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
         </li>
       </ul>
-      <img class="kaufman__triangle"
-    src="./images/kaufman-triangle.svg" alt="Синий треугольник">
+      <img class="kaufman__triangle rotation" src="./images/kaufman-triangle.svg" alt="Синий треугольник">
     </section>
   </main>
 
@@ -249,18 +242,18 @@ src="./images/logo_place_header.svg" alt="Логотип Яндекс Практ
 
   <section class="resources">
     <h2 class="section-title">Полезные ресурсы</h2>
-    <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
+    <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
     <div class="resources__logo-zone">
-      <a class="resources__link" href="#">
+      <a class="resources__link link-hover" href="#">
         <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Логотип Arzama">
       </a>
-      <a class="resources__link" href="#">
+      <a class="resources__link link-hover" href="#">
         <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Логотип N+1">
       </a>
-      <a class="resources__link" href="#">
+      <a class="resources__link link-hover" href="#">
         <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Логотип STRELKA">
       </a>
-      <a class="resources__link" href="#">
+      <a class="resources__link link-hover" href="#">
         <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Логотип POLKA">
       </a>
     </div>
@@ -277,30 +270,30 @@ src="./images/logo_place_header.svg" alt="Логотип Яндекс Практ
       <div class="footer__column footer__column_content_info">
         <h4 class="footer__column-heading">О Практикуме</h4>
         <nav class="footer__column-links">
-          <a class="footer__column-link" href="#">Главная</a>
-          <a class="footer__column-link" href="#">Концепция</a>
-          <a class="footer__column-link" href="#">Наставники</a>
+          <a class="footer__column-link link-hover" href="#">Главная</a>
+          <a class="footer__column-link link-hover" href="#">Концепция</a>
+          <a class="footer__column-link link-hover" href="#">Наставники</a>
         </nav>
       </div>
       <div class="footer__column footer__column_content_social">
         <h4 class="footer__column-heading">Соцсети</h4>
           <ul class="footer__column-links">
-            <li class="footer__column-link">
-              <a class="footer__column-link" href="#">
+            <li class="footer__column-link-cell">
+              <a class="footer__column-link link-hover" href="#">
                 <img class="footer__social-icon"
               src="./images/facebook_color_white.svg" alt="Логотип Facebook">
                 Facebook
               </a>
             </li>
-            <li class="footer__column-link">
-              <a class="footer__column-link" href="#">
+            <li class="footer__column-link-cell">
+              <a class="footer__column-link link-hover" href="#">
                 <img class="footer__social-icon"
               src="./images/vk_color_white.svg" alt="Логотип Вконтакте">
                 Вконтакте
               </a>
             </li>
-            <li class="footer__column-link">
-              <a class="footer__column-link" href="#">
+            <li class="footer__column-link-cell">
+              <a class="footer__column-link link-hover" href="#">
                 <img class="footer__social-icon"
               src="./images/instagram_color_white.svg" alt="Логотип Instagram">
                 Instagram

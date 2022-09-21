@@ -4,8 +4,3 @@
   display: flex;
   justify-content: center;
 }
-
-.resources__link:hover {
-  opacity: .8;
-  transition-duration: .5s;
-}
